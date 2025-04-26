@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    background-color: #2E2E2E;
+    color: #333;
+    line-height: 1.6;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #474646;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: rgb(253, 253, 253);
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #f3e9ec;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin: 0 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+section h2 {
+    font-size: 2em;
+    color: #333;
+    border-bottom: 2px solid #ebd9d9;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+section p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
+footer {
+    background-color: #4b4747;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: auto;
+}
+
+html, body {
+    height: 100%;
+    overflow: auto;
+}
+
+.btn-primary {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.1em;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+ul {
+    list-style-type: circle;
+    padding-left: 30px;
+    margin: 10px 0 20px 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    nav ul li a {
+        font-size: 1em;
+    }
+}
+img {
+    border: 2px solid #333; /* Thinner border */
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    max-width: 80%;
+    height: auto;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img[src="https://wjc.imgix.net/production/image_attachment/file/19651/the_ustasha_take_serbs_to_execution.jpg?ixlib=rails-4.2.0&w=1200&h=630&fit=crop&q=60&auto=format&lossless=true&s=b0da4cf070b4b98324d26414a1cc1545"] {
+    max-width: 45%;
+}
+
+img[src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Jasenovac_prisoners_enter_the_camp.jpg/1200px-Jasenovac_prisoners_enter_the_camp.jpg"] {
+    max-width: 45%;
+}
